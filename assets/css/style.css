@@ -70,12 +70,22 @@ p {
 }
 /* ========================================Header======================================== */
 .header-wrapper {
-    padding-top: 57px;
+    padding-top: 47px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.header {
+    background-color: #fff;
+}
+
+.header-stick{
+    position: sticky;
+    top: -40px;
+    z-index: 10;
+}
 .navbar__list {
     display: flex;
     gap: 19px;
